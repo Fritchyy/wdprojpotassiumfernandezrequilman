@@ -1,0 +1,161 @@
+/* GENERAL ELEMENTS USED (not limited to one page) */
+html {
+  background-image: url("https://cdn.glitch.global/26b79155-2a05-4478-952e-ba0770724d37/default_cat_bg.jpg?v=1734882602476");
+}
+*{  
+  font-family: var(--font);
+}
+
+:root {
+  --font: "Sour Gummy";
+}
+
+
+footer {
+  background-color:white; 
+  position: absolute; 
+  bottom: 5px; 
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+/* Use percents para the reference is the box */ 
+/* ELEMENTS FOR THE WELCOME PAGE */
+/* First page is to be deleted */
+#welcomeTitle{
+  text-align:Center; 
+  font-size: 60px; 
+  background-color: white;
+  border-radius: 25px;
+  border: 2px solid black; /* COLOR IS TO BE CHANGED*/
+  width:800px; 
+  margin-left:350px;
+}
+.container {
+  align-items:center; 
+  display:flex; 
+  justify-content:center; 
+  
+}
+#welcomeMsg {
+  text-align: Center; 
+  font-size: 25px; 
+}
+#welcomeCat{
+  width:500px;
+  height:500px;
+}
+#playbutton{
+  width: 200px;
+  height:200px;
+}
+#playPls{
+  font-size: 45px; 
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* MENU PAGE */
+/* Figure out how to centralize it on all devices (it changes depending on screen size so) */
+
+#menuTitle{
+  text-align:Center; 
+  font-size: 60px; 
+  background-color: white;
+  border-radius: 25px;
+  border: 2px solid #F1AAC2; /* COLOR IS TO BE CHANGED*/
+  width:800px; 
+  margin-left: 23%;
+  margin-right:25%;
+  color:#9d71e8; 
+}
+.menuContainer{
+  display:flex; 
+  flex-direction:column; 
+  margin-top: 80px;
+  justify-content:center;  
+}
+#raisebtn, #settingsbtn, #guidebtn {
+  font-size:40px; 
+  width:500px;
+  height:100px;
+  border-radius: 25px;
+  margin:10px; 
+  margin-left: 500px; 
+  background-color:white;
+  border:#CDB4DB solid 5px; 
+  color:#F1AAC2; 
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* MAIN PAGE */ 
+
+#webTitle{
+  background-color:white; 
+  width:200px; 
+  height:35px;
+  text-align:center; 
+  border-radius:25px;
+  border: black solid 2px;
+}
+/* IN TESTING */
+.dropbtn {
+  background-color:white; 
+  
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color:pink; 
+}
+
+.dropdown {
+  position:relative;
+  display:inline-block; 
+}
+.dropdown-content {
+  display:none; 
+  position: absolute; 
+  background-color:yellow; 
+  
+}
+.dropdown-content a {
+  display:block; 
+}
+/* IN TESTING */
+
+#catName{
+  text-align:center; 
+}
+.mainContainer1{
+  background-color:white;
+  border: black solid 2px;
+  display:flex; 
+  flex-direction:column; 
+  width:100px;
+  margin-left:20px;
+}
+.mainContainer2{
+  background-color:white;
+  border: black solid 2px;
+  display:flex; 
+  flex-direction:column; 
+  width:100px
+}
+.mainPageContainer{
+  background-color:yellow;
+  display:flex; 
+  flex-direction:row; 
+}
+#cat{
+  margin-left:380px;
+}
+#homebtn, #bathebtn, #feedbtn, #petbtn, #closetbtn {
+  border-radius: 25px;
+  margin:10px; 
+  height:50px;
+}
+
+/* GUIDE PAGE */ 
+.sectionGuide{
+  background-color: white;
+}
