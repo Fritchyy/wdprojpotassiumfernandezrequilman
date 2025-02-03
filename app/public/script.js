@@ -24,7 +24,7 @@ function pageRedirection(page) {
       window.location.href = 'b1settingPage.html'; 
       break; 
     case 3: 
-      window.location.href = 'app/public/a1menu.html'; 
+      window.location.href = 'a1menu.html'; 
       break;
     case 4: 
       window.location.href = 'c1guidePage.html'; 
